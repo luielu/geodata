@@ -4,4 +4,11 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-     return HttpResponse("Hello")
+    return render(request, "lin.html")
+
+def Senegal(request):
+     return render(request, "Senegal.html")
+
+def Guine(request):
+     return render(request, "Guine.html")
+
